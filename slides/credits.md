@@ -10,6 +10,7 @@ http://web.archive.org/web/20070703003934/www.lim.univ-mrs.fr/~colmer/ArchivesPu
 
  - https://en.wikibooks.org/wiki/Prolog
  - http://www.cs.trincoll.edu/~ram/cpsc352/notes/prolog/factsrules.html
+ - http://infolab.stanford.edu/~ullman/focs/ch12.pdf
 
 +++
 

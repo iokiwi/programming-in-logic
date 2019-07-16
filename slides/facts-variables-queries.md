@@ -1,10 +1,15 @@
-# Facts
-
-"A fact is an expression that makes a declarative statement about the problem domain"
+# Prolog
 
 
+<br>
+<span style="color: red;">PRO</span>gramming in <span style="color: red;">LOG</span>ic
+
++++
 
 
+## Facts
+<br>
+A fact is an expression that makes a declarative statement about the problem domain
 
 +++
 
