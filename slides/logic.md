@@ -1,170 +1,107 @@
-## Formal Logic
+## Formal logic
 
 <br>
+
++++
+
+The mathematical dicipline of formal logic in 4 easy steps
 <br>
 
-The abstract study of propositions, statements, or assertively used sentences and of deductive arguments.
-
-
-Notes:
-
-For millenia human's have been devising formal, rigorous systems of reasoning deduction and proofs.
+  1. Distil problem to notation
+  2. Apply rules of inference
+  3. ???
+  4. ~~Pofit~~ Proof!
 
 +++
 
-**propositional logic**
-<br><br>
- and
-<br><br>
-**predicate logic**
+# C+
 
 +++
 
-## Propositional Logic
+>If it is raining, then it's cloudy.
+
+`$P \implies Q$`
+
++++
+
+>It is raining.
+
+`$P$`
+
++++
+
+>Therefore, it's cloudy.
+
+`$\therefore Q$`
+
++++
+
+Intuitively, we undertand this **argument** is **valid**
+
++++
+
+The mathematical **dicipline** of formal logic
 <br>
-A systematic method of interpreting series of **propositions**, evaluating them and decucing a conclusion.
+
+  1. Distil problem to notation
+  2. Apply rules of inference
+  3. ???
+  4. ~~Pofit~~ Proof!
 
 +++
 
-Propositions are statements which could be **true** or **false**
-
- * It's raining
- * The sky is blue
+**Predicate logic** introduces a few more important concepts
 
 +++
 
-logical **arguments** are formed by taking one or more **propositions** as **premises** and an aditional proposition as the **conclusion** 
+### Universal Quantification
+
+>For all `$x$`
+
+`$$\forall x$$`
 
 +++
 
-If it is raining, then it's cloudy.
+### Existential Quantification
 
-It is raining.
+>There exists some `$x$`
 
-Therefore, it's cloudy.
-
-
-Note: 
-
-This argument consists of 2 premesis and the conclusion
-
-Normally this would be translated into a mathematical notation, for brevity
+`$$\exists x$$`
 
 +++
 
-The **premises** are assumed to be **true**
+### Predicates
+
+>`$x$` is `$C$`ool
+
+`$$Cx$$`
+
+>`$x$` is `$A$`djacent to `$y$`
+
+`$$Axy$$`
 
 +++
 
-We can then choose from a variety of inference rules and deduce the conclusion
+Notice the prefix notation
 
 +++
 
-
->P implies Q and P is asserted to be true, therefore Q must be true.
-
-(Modus ponens)
+Using these constructs of predicate logic we can start to model the real world in logic
 
 +++
 
-let **P** = "It's raining"
-
-let **Q** = "It's Cloudy"
-
-+++
-
-If it is raining (**P**), then it is cloudy (**Q**)
-
-_**P** implies **Q**_
-
-`P -> Q`
-
-+++
-
-It is raining (**P**)
-
-`P`
-
-+++
-
->P implies Q and P is asserted to be true, therefore Q must be true.
-
-
-Therefore, it's cloudy.
-
-+++
-
-Mathematical framework for working with logic in the form of propositions. 
-
-+++
-
-
-## Predicate Logic
-
-Introducing Predicates
-
-+++ 
-
-Predicates differ from propostions 
- Introduces inferential rules for
-
-+++
-
-More powerful propositions, in the form of predicates.
-
-+++
-
-Let `$s$` be simon
-
-
-Let `$Hx$` be the predicate, `$x$` is `$H$`uman
-
-+++
-
->Simon is human
-
-`$Hs$`
-
-+++
-
-More than one variable
-
-Prefix notation
-
-+++
-
->The englishman lives in the red house
-
-Let `$e$` = the engilish man
-
-Let `$r$`  =  the red house
-
-Let `$Lxy$`  be the predicate, `$x$` `$L$`ives in `$y$`
- 
-+++
-
->The englishman lives in the red house
+>The `$e$`nglishman `$L$`ives in the `$r$`ed house
 
 `$$Ler$$`
 
 +++
 
-Predicates, are themselves a proposition from which we can build arguments
+Finally, we can also combine **quantifiers** and **predicates**
+
+>There exists some `$x$` such that `$x$` `$L$`ives in the `$r$`ed house
+
+`$$\exists x Lxr$$`
 
 +++
 
-`$$Hs$$`
-
-+++
-
-The math gets messy
-
-![](https://qph.fs.quoracdn.net/main-qimg-fde3633933b3fa2dbc8fa62cbd32fdd6)
-
-+++
-
-Fast
-
-![](https://qph.fs.quoracdn.net/main-qimg-fde3633933b3fa2dbc8fa62cbd32fdd6)
-
-+++
+We are ready to write our first prolog program!
