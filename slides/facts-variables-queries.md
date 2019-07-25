@@ -243,7 +243,7 @@ Then `[ F | R ]` equates to
 
 <br>
 
-Prolog has a usefull clause for appending to a list.
+Prolog has a useful clause for appending to a list.
 
 <br>
 
@@ -343,7 +343,7 @@ For each house there are 5 factors to consider
 
  * The nationality of the **Owner**
  * The **Pet**
- * The **Cigarret** brand
+ * The **Cigaret** brand
  * The **Drink**
  * The **Color**
 
@@ -388,7 +388,7 @@ houses(H) :-
     ...
 ```
 
-Suceeds if `|$H$| = 5`
+Succeeds if `|$H$| = 5`
 
 +++
 

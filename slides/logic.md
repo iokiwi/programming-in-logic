@@ -36,11 +36,11 @@ The mathematical discipline of formal logic in 4 easy steps
 
 +++
 
-Intuitively, we undertand this **argument** is **valid**
+Intuitively, we understand this **argument** is **valid**
 
 +++
 
-The mathematical **dicipline** of formal logic
+The mathematical **discipline** of formal logic
 <br>
 
   1. Distill problem to notation

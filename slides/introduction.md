@@ -43,7 +43,7 @@ Einstein's Riddle
 +++
 
 
-(alledgedly)
+(allegedly)
 
 ![](/slides/images/einstein)
 
