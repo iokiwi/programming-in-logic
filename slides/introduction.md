@@ -38,7 +38,7 @@ Simon Merrick
 
 +++
 
-Einsein's Riddle
+Einstein's Riddle
 
 +++
 
@@ -111,7 +111,3 @@ The result of french research into machine natural language processing.
 +++
 
 >"The idea of using a natural language like French to reason and communicate directly with a computer seemed like a crazy idea"
-
-+++
-
-Prolog is a s

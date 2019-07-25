@@ -125,7 +125,7 @@ sibling(joffrey, myrcella).
 
 +++
 
-Not elegant nor scalable. 
+Neither elegant nor scalable. 
 
 <br>
 
@@ -243,7 +243,7 @@ Then `[ F | R ]` equates to
 
 <br>
 
-Prolog has a usefull clause for appending to as list.
+Prolog has a usefull clause for appending to a list.
 
 <br>
 
@@ -267,7 +267,7 @@ Prolog is working out the value(s) for `C` which make the append() clause **True
 
 +++
 
-So, because this is prolog,
+But, because this is prolog,
 
 we can do this
 
@@ -296,7 +296,7 @@ A = [1, 2, 3], B = []
 
 <span style="font-size='1000px'">_</span>
 
->Used like a variable but it tells prolog we **dont care** what it's value is.
+>Used like a variable but it tells prolog we **don't care** what it's value is.
 
 +++
 
@@ -309,11 +309,11 @@ Then `[F|_]` equates to
 
 <br>
 
-`F=a`, we **dont care** about the rest
+`F = a`, we **don't care** about the rest
 
 +++
 
-###  Solving Einsteins Riddle
+###  Solving Einstein's Riddle
 
 +++
 
@@ -339,7 +339,7 @@ Who owns the zebra and who drinks water?
 
 +++
 
-Each house has 5 properties
+For each house there are 5 factors to consider
 
  * The nationality of the **Owner**
  * The **Pet**
@@ -376,7 +376,7 @@ houses(H) :-
 
 We can start building up facts about the houses piece by piece
 
-We'll use the **dont care** variable where information is not provided
+We'll use the **don't care** variable where information is not provided
 
 +++
 

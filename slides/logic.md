@@ -4,13 +4,13 @@
 
 +++
 
-The mathematical dicipline of formal logic in 4 easy steps
+The mathematical discipline of formal logic in 4 easy steps
 <br>
 
-  1. Distil problem to notation
+  1. Distill problem to notation
   2. Apply rules of inference
   3. ???
-  4. ~~Pofit~~ Proof!
+  4. ~~Profit~~ Proof!
 
 +++
 
@@ -43,10 +43,10 @@ Intuitively, we undertand this **argument** is **valid**
 The mathematical **dicipline** of formal logic
 <br>
 
-  1. Distil problem to notation
+  1. Distill problem to notation
   2. Apply rules of inference
   3. ???
-  4. ~~Pofit~~ Proof!
+  4. ~~Profit~~ Proof!
 
 +++
 
